@@ -32,13 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Dial
 
         Switch simpleSwitch = (Switch) findViewById(R.id.switch1);
 
-        editText = (EditText)findViewById(R.id.editText5);
 
-        editText.setOnClickListener(this);
-
-        editText1 = (EditText)findViewById(R.id.editText8);
-
-        editText1.setOnClickListener(this);
 
 // check current state of a Switch (true or false).
         Boolean switchState = simpleSwitch.isChecked();
@@ -72,8 +66,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Dial
                 t.setText("You have successfully deleted the Beacon");
 //                simpleSwitch.isChecked();
 //                simpleSwitch.setChecked(false);
-                editText.getText().clear();
-                editText1.getText().clear();
+//                editText.getText().clear();
+//                editText1.getText().clear();
 
 
                 break;

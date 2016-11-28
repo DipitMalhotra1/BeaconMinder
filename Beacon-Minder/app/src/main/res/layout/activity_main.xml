@@ -32,19 +32,6 @@
 
     </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:layout_marginTop="18dp"
-        android:id="@+id/editText5"
-        android:layout_below="@+id/switch1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -53,28 +40,14 @@
         android:layout_marginTop="26dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Beacon ID"
-        android:ems="10"
-        android:id="@+id/editText8"
-        android:layout_below="@+id/editText5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
-        style="@style/Widget.AppCompat.EditText"
-        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
-
     <Button
         android:text="Delete Beacon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:onClick="@android:string/dialog_alert_title"
-        android:layout_marginTop="34dp"
-        android:layout_below="@+id/editText8"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textInputLayout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

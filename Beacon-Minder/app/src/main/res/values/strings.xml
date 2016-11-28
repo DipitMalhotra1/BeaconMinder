@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Beacon-Minder</string>
     <string name="BeaconIDs" />
+    <string name="BeaconName" />
+    <string name="BeaconID" />
+    <string name="BeaconButton">You have successfully added the Beacon</string>
 </resources>
